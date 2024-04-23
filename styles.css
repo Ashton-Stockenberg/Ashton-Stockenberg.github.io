@@ -9,22 +9,26 @@
 }
 
 body {
-    background-image: url('public/background.webp');
+    background: url('public/background.webp') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 #name-front {
     white-space:nowrap;
-    font-size: 8em;
+    font-size: 8vw;
     z-index: 2;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
 }
 
 #name-back {
     white-space:nowrap;
-    font-size: 7.8em;
+    font-size: 7.8vw;
     color: black;
     font-style: italic;
-    opacity: 10%;
+    opacity: 50%;
     z-index: 1;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
 }

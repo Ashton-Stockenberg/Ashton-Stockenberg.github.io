@@ -1,3 +1,30 @@
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.blur {
+    background: rgba(0,0,0,0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+body {
+    background-image: url('public/background.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#name-front {
+    white-space:nowrap;
+    font-size: 8em;
+    z-index: 2;
+}
+
+#name-back {
+    white-space:nowrap;
+    font-size: 7.8em;
+    color: black;
+    font-style: italic;
+    opacity: 10%;
+    z-index: 1;
+}

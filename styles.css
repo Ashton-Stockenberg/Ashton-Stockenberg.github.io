@@ -20,7 +20,8 @@ body {
     white-space:nowrap;
     font-size: 8vw;
     z-index: 2;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    font-style: italic;
 }
 
 #name-back {
@@ -30,5 +31,5 @@ body {
     font-style: italic;
     opacity: 50%;
     z-index: 1;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }

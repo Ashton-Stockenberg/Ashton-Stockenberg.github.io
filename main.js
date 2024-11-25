@@ -31,5 +31,5 @@
         back.style.top = `${deltaY + sin_result}px`
         front.style.top = `${-deltaY + sin_result}px`
         
-    }, 1)
+    }, 50)
 }
